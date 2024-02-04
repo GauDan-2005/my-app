@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  /* max-width: 25rem; */
+  /* width: 100%; */
+  padding: 1rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.date {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  text-align: justify;
+}
+
+.detail_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.username {
+}
+
+.edit_btn {
+}
+
+.delete_btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
